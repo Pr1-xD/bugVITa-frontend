@@ -4,6 +4,7 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
 import Bugs from './pages/Bugs'
+import Report from './pages/Report'
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/signup" component={Signup} />
           <Route path="/dashboard" component={Dashboard} />
           <Route path="/bugs" component={Bugs} />
+          <Route path="/report" component={Report} />
       </Switch>
     </div>
   );
