@@ -10,6 +10,8 @@ function Home(props) {
             <br/>
             <br/>
             <br/>
+            <br/>
+            <br/>
           <section class="text-gray-700 ">
             <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
               <div class="flex flex-col items-start w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0 ">

@@ -7,6 +7,7 @@ import Bugs from './pages/Bugs'
 import Report from './pages/Report'
 import logo from './logo.svg';
 import './App.css';
+import Buglist from './pages/Buglist';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/dashboard" component={Dashboard} />
           <Route path="/bugs" component={Bugs} />
           <Route path="/report" component={Report} />
+          <Route path="/buglist" component={Buglist} />
       </Switch>
     </div>
   );

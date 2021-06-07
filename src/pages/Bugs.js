@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import {Link} from 'react-router-dom'
 import NavAfter from '../components/NavAfter'
 import axios from 'axios'
@@ -43,8 +43,9 @@ function Bugs(props) {
         setDesc(event.target.value);
     }  
     
-    axios.get('http://localhost:4000/api/bugs')
-    .then(response => setBugs(response.data));
+    useEffect(()=>{axios.get('http://localhost:4000/api/bugs')
+    .then(response => {console.log(response)
+        setBugs(response.data)});},[])
     
 
     function handleBugSubmit(e){
