@@ -27,7 +27,7 @@ function Signup(props) {
       function handleResponse(res){
           console.log(res)
           if(res.data.signedup)
-          window.location.href = "/";
+          window.location.href = "/dashboard";
         //   else
         //   window.location.href = "/";
       }
